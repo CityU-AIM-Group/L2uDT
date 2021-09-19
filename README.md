@@ -8,7 +8,7 @@ by [Xiaoqing Guo](https://guo-xiaoqing.github.io/).
 This repository is for our IEEE TMI paper ["Semantic-oriented Labeled-to-unlabeled Distribution Translation for Image Segmentation"](https://)
 
 ### Framework:
-![](https://github.com/CityU-AIM-Group/L2uDT/raw/master/network.png)
+![](https://github.com/CityU-AIM-Group/L2uDT/blob/main/network.png)
 
 ## Usage:
 ### Requirement:
