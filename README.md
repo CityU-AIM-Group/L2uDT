@@ -50,6 +50,9 @@ You should download the pretrained model from [Google Drive](https://drive.googl
 ### Well trained model:
 You could download the trained model from [Google Drive](https://drive.google.com/file), which achieves 81.464% in Dice score on the [EndoScene testing dataset](https://www.hindawi.com/journals/jhe/2017/4037190/). Put the model in directory './models'.
 
+## Log file
+Log file can be found [here](https://github.com/CityU-AIM-Group/L2uDT/blob/main/CVC_L2uDT_log.out)
+
 ## Citation:
 ```
 @article{guo2020learn,
