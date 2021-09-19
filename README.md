@@ -24,18 +24,18 @@ bash L2uDT.sh
 ```
 
 ### Data preparation:
-Dataset should be put into the folder './data'. For example, if the name of dataset is CVC, then the path of dataset should be './data/CVC/', and the folder structure is as following.
+Dataset [(Google Drive)](https://drive.google.com/file/d/) should be put into the folder './data'. For example, if the name of dataset is CVC, then the path of dataset should be './data/CVC/', and the folder structure is as following.
 ```
 ThresholdNet
 |-data
 |--CVC
 |---images
 |---labels
-|---train.txt
+|---labeled.txt
+|---unlabeled.txt
 |---test.txt
-|---valid.txt
 ```
-The content of 'train.txt', 'test.txt' and 'valid.txt' should be just like:
+The content of 'labeled.txt', 'unlabeled.txt' and 'test.txt' should be just like:
 ```
 26.png
 27.png
