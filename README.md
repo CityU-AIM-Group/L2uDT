@@ -42,6 +42,7 @@ The content of 'labeled.txt', 'unlabeled.txt' and 'test.txt' should be just like
 28.png
 ...
 ```
+Note that we regard 'valid.txt' of EndoScene dataset as our 'labeled.txt', 'train.txt' of EndoScene dataset as our 'unlabeled.txt', and 'test.txt'  of EndoScene dataset as our 'test.txt'.
 
 ### Pretrained model:
 You should download the pretrained model from [Google Drive](https://drive.google.com/file/d/1yeZxwV6dYHQJmj2i5x9PnB6u-rqvlkCj/view?usp=sharing), and then put it in the './model' folder for initialization. 
