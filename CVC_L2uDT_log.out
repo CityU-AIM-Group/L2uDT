@@ -1,0 +1,842 @@
+Submitted from:/gpfs1/home/xiaoqiguo2/SemiSeg on node:hpclogin01
+Running on node hpc-gpu007
+Allocate Gpu Units:0
+Cluster0: 32
+Cluster1: 64
+Gen_advScale_eps: 0.05
+Gen_advScale_min: 0.1
+Gen_advScale_delta: 0.05
+Gen_advScale_lr: 10.0
+Gen_advScale_iter: 10
+CL_weight: 0.05
+CL_weight_decay: 0.1
+CL_temp1: None
+CL_temp2: 0.8
+RMloss_temp: 0.5
+CL_Region_temp: 0.5
+L2u_temp: 1.0
+Use 1 GPU
+epoch:0/500	CE loss:0.202691	Entropy loss:-0.54206	MP loss:1.90483	Proto loss1:9.62096	Proto loss2:11.028 
+
+       Acc: 91.245%          Sen:  9.774%          Spe: 99.983%         Prec: 32.560%         Dice: 12.612%          Jac:  9.632%           F2: 10.670%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch0_jac9.632.pth has been saved
+epoch:1/500	CE loss:0.063504	Entropy loss:-0.548157	MP loss:1.89218	Proto loss1:9.53255	Proto loss2:10.9379 
+
+       Acc: 92.621%          Sen: 28.675%          Spe: 99.784%         Prec: 54.701%         Dice: 33.265%          Jac: 27.028%           F2: 30.146%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch1_jac27.028.pth has been saved
+epoch:2/500	CE loss:0.0477147	Entropy loss:-0.5517	MP loss:1.86826	Proto loss1:9.34731	Proto loss2:10.762 
+
+       Acc: 92.503%          Sen: 27.071%          Spe: 99.908%         Prec: 57.074%         Dice: 33.147%          Jac: 26.421%           F2: 29.067%
+
+epoch:3/500	CE loss:0.0405751	Entropy loss:-0.552345	MP loss:1.83126	Proto loss1:9.07404	Proto loss2:10.5036 
+
+       Acc: 93.476%          Sen: 41.262%          Spe: 99.844%         Prec: 73.422%         Dice: 48.087%          Jac: 39.607%           F2: 43.481%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch3_jac39.607.pth has been saved
+epoch:4/500	CE loss:0.0363552	Entropy loss:-0.548352	MP loss:1.74562	Proto loss1:8.72121	Proto loss2:10.144 
+
+       Acc: 93.908%          Sen: 48.328%          Spe: 99.823%         Prec: 79.397%         Dice: 55.382%          Jac: 46.165%           F2: 50.584%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch4_jac46.165.pth has been saved
+epoch:5/500	CE loss:0.0356651	Entropy loss:-0.53899	MP loss:1.57994	Proto loss1:8.40948	Proto loss2:9.79071 
+
+       Acc: 93.803%          Sen: 46.949%          Spe: 99.886%         Prec: 79.264%         Dice: 55.163%          Jac: 45.467%           F2: 49.665%
+
+epoch:6/500	CE loss:0.0351067	Entropy loss:-0.52591	MP loss:1.37102	Proto loss1:8.20164	Proto loss2:9.54096 
+
+       Acc: 94.441%          Sen: 64.399%          Spe: 99.549%         Prec: 85.356%         Dice: 67.577%          Jac: 57.972%           F2: 64.976%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch6_jac57.972.pth has been saved
+epoch:7/500	CE loss:0.0328469	Entropy loss:-0.507197	MP loss:1.11302	Proto loss1:8.03991	Proto loss2:9.42294 
+
+       Acc: 94.317%          Sen: 60.107%          Spe: 99.714%         Prec: 90.751%         Dice: 66.685%          Jac: 56.222%           F2: 62.036%
+
+epoch:8/500	CE loss:0.0296456	Entropy loss:-0.485242	MP loss:0.869773	Proto loss1:7.90774	Proto loss2:9.4087 
+
+       Acc: 94.537%          Sen: 67.195%          Spe: 99.500%         Prec: 88.576%         Dice: 70.538%          Jac: 60.928%           F2: 67.796%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch8_jac60.928.pth has been saved
+epoch:9/500	CE loss:0.028673	Entropy loss:-0.47023	MP loss:0.720787	Proto loss1:7.8008	Proto loss2:9.429 
+
+       Acc: 93.636%          Sen: 53.110%          Spe: 99.840%         Prec: 90.681%         Dice: 61.202%          Jac: 50.811%           F2: 55.689%
+
+epoch:10/500	CE loss:0.0272177	Entropy loss:-0.440941	MP loss:0.60146	Proto loss1:7.71755	Proto loss2:9.40981 
+
+       Acc: 94.527%          Sen: 61.060%          Spe: 99.798%         Prec: 86.012%         Dice: 66.853%          Jac: 58.472%           F2: 62.984%
+
+epoch:11/500	CE loss:0.0259435	Entropy loss:-0.452402	MP loss:0.580851	Proto loss1:7.66068	Proto loss2:9.45027 
+
+       Acc: 95.050%          Sen: 67.643%          Spe: 99.539%         Prec: 89.091%         Dice: 71.794%          Jac: 62.766%           F2: 68.694%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch11_jac62.766.pth has been saved
+epoch:12/500	CE loss:0.0238021	Entropy loss:-0.431431	MP loss:0.495974	Proto loss1:7.60747	Proto loss2:9.32386 
+
+       Acc: 94.847%          Sen: 71.039%          Spe: 98.926%         Prec: 82.631%         Dice: 70.987%          Jac: 60.984%           F2: 70.051%
+
+epoch:13/500	CE loss:0.0226651	Entropy loss:-0.424782	MP loss:0.438706	Proto loss1:7.56249	Proto loss2:9.20883 
+
+       Acc: 95.075%          Sen: 70.815%          Spe: 99.496%         Prec: 88.281%         Dice: 72.625%          Jac: 63.767%           F2: 70.974%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch13_jac63.767.pth has been saved
+epoch:14/500	CE loss:0.0209377	Entropy loss:-0.430705	MP loss:0.408685	Proto loss1:7.54697	Proto loss2:9.15853 
+
+       Acc: 95.291%          Sen: 75.516%          Spe: 99.198%         Prec: 85.583%         Dice: 74.572%          Jac: 65.920%           F2: 74.389%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch14_jac65.920.pth has been saved
+epoch:15/500	CE loss:0.0206186	Entropy loss:-0.442038	MP loss:0.396546	Proto loss1:7.51003	Proto loss2:9.1043 
+
+       Acc: 95.332%          Sen: 75.769%          Spe: 99.298%         Prec: 87.306%         Dice: 75.656%          Jac: 67.319%           F2: 75.029%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch15_jac67.319.pth has been saved
+epoch:16/500	CE loss:0.0197019	Entropy loss:-0.446178	MP loss:0.373664	Proto loss1:7.48291	Proto loss2:9.02932 
+
+       Acc: 95.216%          Sen: 70.156%          Spe: 99.681%         Prec: 90.306%         Dice: 73.861%          Jac: 65.437%           F2: 71.268%
+
+epoch:17/500	CE loss:0.0201677	Entropy loss:-0.450872	MP loss:0.364855	Proto loss1:7.45447	Proto loss2:8.98547 
+
+       Acc: 95.288%          Sen: 72.767%          Spe: 99.639%         Prec: 90.503%         Dice: 75.686%          Jac: 67.366%           F2: 73.539%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch17_jac67.366.pth has been saved
+epoch:18/500	CE loss:0.0191369	Entropy loss:-0.45473	MP loss:0.352192	Proto loss1:7.4357	Proto loss2:8.94191 
+
+       Acc: 94.879%          Sen: 71.337%          Spe: 99.317%         Prec: 85.674%         Dice: 72.109%          Jac: 63.445%           F2: 71.047%
+
+epoch:19/500	CE loss:0.0189756	Entropy loss:-0.458594	MP loss:0.340866	Proto loss1:7.41728	Proto loss2:8.91234 
+
+       Acc: 95.293%          Sen: 71.589%          Spe: 99.628%         Prec: 91.182%         Dice: 74.937%          Jac: 66.727%           F2: 72.395%
+
+epoch:20/500	CE loss:0.0184893	Entropy loss:-0.463195	MP loss:0.33492	Proto loss1:7.3888	Proto loss2:8.88478 
+
+       Acc: 95.350%          Sen: 73.677%          Spe: 99.571%         Prec: 88.821%         Dice: 75.361%          Jac: 67.164%           F2: 73.767%
+
+epoch:21/500	CE loss:0.018347	Entropy loss:-0.467272	MP loss:0.328671	Proto loss1:7.37716	Proto loss2:8.8603 
+
+       Acc: 95.095%          Sen: 69.864%          Spe: 99.671%         Prec: 90.643%         Dice: 73.911%          Jac: 65.604%           F2: 70.906%
+
+epoch:22/500	CE loss:0.0176474	Entropy loss:-0.471367	MP loss:0.312324	Proto loss1:7.36701	Proto loss2:8.84732 
+
+       Acc: 94.949%          Sen: 69.700%          Spe: 99.669%         Prec: 89.782%         Dice: 73.122%          Jac: 65.060%           F2: 70.517%
+
+epoch:23/500	CE loss:0.0176891	Entropy loss:-0.475205	MP loss:0.307993	Proto loss1:7.35419	Proto loss2:8.82398 
+
+       Acc: 95.015%          Sen: 71.331%          Spe: 99.610%         Prec: 90.355%         Dice: 73.842%          Jac: 65.467%           F2: 71.714%
+
+epoch:24/500	CE loss:0.0170891	Entropy loss:-0.478091	MP loss:0.306938	Proto loss1:7.34071	Proto loss2:8.8049 
+
+       Acc: 95.082%          Sen: 70.242%          Spe: 99.659%         Prec: 91.067%         Dice: 74.149%          Jac: 65.891%           F2: 71.208%
+
+epoch:25/500	CE loss:0.016764	Entropy loss:-0.480817	MP loss:0.299311	Proto loss1:7.33541	Proto loss2:8.79061 
+
+       Acc: 94.765%          Sen: 67.352%          Spe: 99.687%         Prec: 87.674%         Dice: 71.208%          Jac: 62.807%           F2: 68.363%
+
+epoch:26/500	CE loss:0.0165716	Entropy loss:-0.483019	MP loss:0.293641	Proto loss1:7.33564	Proto loss2:8.78919 
+
+       Acc: 94.727%          Sen: 68.450%          Spe: 99.646%         Prec: 89.680%         Dice: 71.853%          Jac: 63.621%           F2: 69.248%
+
+epoch:27/500	CE loss:0.0164989	Entropy loss:-0.485154	MP loss:0.290083	Proto loss1:7.3178	Proto loss2:8.76579 
+
+       Acc: 95.766%          Sen: 79.057%          Spe: 99.268%         Prec: 88.378%         Dice: 79.243%          Jac: 70.836%           F2: 78.349%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch27_jac70.836.pth has been saved
+epoch:28/500	CE loss:0.017105	Entropy loss:-0.486449	MP loss:0.296731	Proto loss1:7.31234	Proto loss2:8.76529 
+
+       Acc: 95.261%          Sen: 71.683%          Spe: 99.633%         Prec: 91.865%         Dice: 75.677%          Jac: 67.066%           F2: 72.721%
+
+epoch:29/500	CE loss:0.0160789	Entropy loss:-0.487952	MP loss:0.282759	Proto loss1:7.30416	Proto loss2:8.74735 
+
+       Acc: 95.095%          Sen: 70.119%          Spe: 99.636%         Prec: 90.143%         Dice: 73.904%          Jac: 65.336%           F2: 71.104%
+
+epoch:30/500	CE loss:0.0153533	Entropy loss:-0.489156	MP loss:0.280623	Proto loss1:7.30029	Proto loss2:8.73885 
+
+       Acc: 95.327%          Sen: 71.968%          Spe: 99.642%         Prec: 91.817%         Dice: 75.664%          Jac: 67.445%           F2: 72.862%
+
+epoch:31/500	CE loss:0.0160661	Entropy loss:-0.489941	MP loss:0.282836	Proto loss1:7.29471	Proto loss2:8.73028 
+
+       Acc: 95.315%          Sen: 72.555%          Spe: 99.625%         Prec: 90.577%         Dice: 75.351%          Jac: 67.479%           F2: 73.082%
+
+epoch:32/500	CE loss:0.0157304	Entropy loss:-0.490699	MP loss:0.277072	Proto loss1:7.29221	Proto loss2:8.73005 
+
+       Acc: 95.246%          Sen: 72.521%          Spe: 99.646%         Prec: 90.352%         Dice: 75.084%          Jac: 66.853%           F2: 73.087%
+
+epoch:33/500	CE loss:0.0150937	Entropy loss:-0.491211	MP loss:0.27795	Proto loss1:7.29914	Proto loss2:8.73171 
+
+       Acc: 94.248%          Sen: 71.996%          Spe: 98.621%         Prec: 80.314%         Dice: 70.460%          Jac: 61.150%           F2: 70.689%
+
+epoch:34/500	CE loss:0.0155301	Entropy loss:-0.491534	MP loss:0.265756	Proto loss1:7.28439	Proto loss2:8.71689 
+
+       Acc: 94.605%          Sen: 70.453%          Spe: 99.122%         Prec: 84.319%         Dice: 71.349%          Jac: 62.301%           F2: 70.260%
+
+epoch:35/500	CE loss:0.0151024	Entropy loss:-0.492074	MP loss:0.262509	Proto loss1:7.28121	Proto loss2:8.7069 
+
+       Acc: 94.236%          Sen: 71.721%          Spe: 98.739%         Prec: 81.473%         Dice: 71.053%          Jac: 61.699%           F2: 70.685%
+
+epoch:36/500	CE loss:0.0146928	Entropy loss:-0.492532	MP loss:0.261106	Proto loss1:7.27749	Proto loss2:8.70471 
+
+       Acc: 94.972%          Sen: 71.288%          Spe: 99.617%         Prec: 88.223%         Dice: 73.450%          Jac: 65.528%           F2: 71.516%
+
+epoch:37/500	CE loss:0.0150553	Entropy loss:-0.492834	MP loss:0.259379	Proto loss1:7.27568	Proto loss2:8.6984 
+
+       Acc: 94.860%          Sen: 68.949%          Spe: 99.639%         Prec: 88.931%         Dice: 72.293%          Jac: 64.306%           F2: 69.756%
+
+epoch:38/500	CE loss:0.0150573	Entropy loss:-0.493338	MP loss:0.255835	Proto loss1:7.27322	Proto loss2:8.69241 
+
+       Acc: 94.595%          Sen: 64.159%          Spe: 99.694%         Prec: 85.242%         Dice: 68.686%          Jac: 60.802%           F2: 65.530%
+
+epoch:39/500	CE loss:0.0146544	Entropy loss:-0.49355	MP loss:0.258399	Proto loss1:7.27271	Proto loss2:8.69345 
+
+       Acc: 94.699%          Sen: 68.508%          Spe: 99.494%         Prec: 85.592%         Dice: 71.023%          Jac: 63.058%           F2: 69.005%
+
+epoch:40/500	CE loss:0.0144977	Entropy loss:-0.493871	MP loss:0.248208	Proto loss1:7.26835	Proto loss2:8.68375 
+
+       Acc: 95.159%          Sen: 72.653%          Spe: 99.591%         Prec: 88.413%         Dice: 74.490%          Jac: 66.931%           F2: 72.843%
+
+epoch:41/500	CE loss:0.0146933	Entropy loss:-0.494088	MP loss:0.249635	Proto loss1:7.26623	Proto loss2:8.68084 
+
+       Acc: 95.110%          Sen: 70.807%          Spe: 99.656%         Prec: 86.851%         Dice: 73.563%          Jac: 66.250%           F2: 71.508%
+
+epoch:42/500	CE loss:0.0142859	Entropy loss:-0.49433	MP loss:0.247331	Proto loss1:7.265	Proto loss2:8.67979 
+
+       Acc: 94.521%          Sen: 67.820%          Spe: 99.329%         Prec: 84.267%         Dice: 70.434%          Jac: 61.759%           F2: 68.398%
+
+epoch:43/500	CE loss:0.0141998	Entropy loss:-0.494709	MP loss:0.248379	Proto loss1:7.26309	Proto loss2:8.67847 
+
+       Acc: 94.678%          Sen: 69.639%          Spe: 99.367%         Prec: 83.307%         Dice: 70.805%          Jac: 62.835%           F2: 69.618%
+
+epoch:44/500	CE loss:0.0141656	Entropy loss:-0.494873	MP loss:0.242486	Proto loss1:7.25993	Proto loss2:8.67304 
+
+       Acc: 94.944%          Sen: 69.587%          Spe: 99.645%         Prec: 85.408%         Dice: 72.350%          Jac: 64.536%           F2: 70.227%
+
+epoch:45/500	CE loss:0.0143225	Entropy loss:-0.495151	MP loss:0.247826	Proto loss1:7.25943	Proto loss2:8.6702 
+
+       Acc: 95.300%          Sen: 72.492%          Spe: 99.702%         Prec: 87.034%         Dice: 74.969%          Jac: 67.823%           F2: 73.092%
+
+epoch:46/500	CE loss:0.0144638	Entropy loss:-0.495294	MP loss:0.242191	Proto loss1:7.25859	Proto loss2:8.67017 
+
+       Acc: 95.201%          Sen: 72.520%          Spe: 99.609%         Prec: 85.342%         Dice: 73.988%          Jac: 66.969%           F2: 72.637%
+
+epoch:47/500	CE loss:0.0139002	Entropy loss:-0.495595	MP loss:0.245871	Proto loss1:7.2564	Proto loss2:8.66633 
+
+       Acc: 95.083%          Sen: 70.525%          Spe: 99.724%         Prec: 89.024%         Dice: 73.781%          Jac: 66.176%           F2: 71.398%
+
+epoch:48/500	CE loss:0.0139484	Entropy loss:-0.495785	MP loss:0.239711	Proto loss1:7.25565	Proto loss2:8.6657 
+
+       Acc: 95.210%          Sen: 72.727%          Spe: 99.689%         Prec: 87.994%         Dice: 74.794%          Jac: 67.625%           F2: 73.014%
+
+epoch:49/500	CE loss:0.0139245	Entropy loss:-0.496001	MP loss:0.237003	Proto loss1:7.25102	Proto loss2:8.65754 
+
+       Acc: 95.022%          Sen: 69.714%          Spe: 99.739%         Prec: 88.011%         Dice: 73.145%          Jac: 65.646%           F2: 70.645%
+
+epoch:50/500	CE loss:0.0139359	Entropy loss:-0.496191	MP loss:0.233861	Proto loss1:7.25405	Proto loss2:8.6708 
+
+       Acc: 95.139%          Sen: 71.104%          Spe: 99.716%         Prec: 88.798%         Dice: 74.192%          Jac: 66.885%           F2: 71.840%
+
+epoch:51/500	CE loss:0.0134901	Entropy loss:-0.496347	MP loss:0.233679	Proto loss1:7.25886	Proto loss2:8.67658 
+
+       Acc: 95.146%          Sen: 71.566%          Spe: 99.709%         Prec: 88.279%         Dice: 74.463%          Jac: 67.054%           F2: 72.160%
+
+epoch:52/500	CE loss:0.0141113	Entropy loss:-0.496521	MP loss:0.23435	Proto loss1:7.26334	Proto loss2:8.67506 
+
+       Acc: 95.147%          Sen: 71.439%          Spe: 99.716%         Prec: 89.122%         Dice: 74.106%          Jac: 66.736%           F2: 72.054%
+
+epoch:53/500	CE loss:0.0131782	Entropy loss:-0.496583	MP loss:0.225698	Proto loss1:7.26545	Proto loss2:8.68466 
+
+       Acc: 94.954%          Sen: 69.720%          Spe: 99.699%         Prec: 90.524%         Dice: 72.920%          Jac: 65.010%           F2: 70.513%
+
+epoch:54/500	CE loss:0.0137669	Entropy loss:-0.496872	MP loss:0.228557	Proto loss1:7.27122	Proto loss2:8.69116 
+
+       Acc: 94.973%          Sen: 71.476%          Spe: 99.488%         Prec: 87.970%         Dice: 73.100%          Jac: 65.102%           F2: 71.593%
+
+epoch:55/500	CE loss:0.0131629	Entropy loss:-0.497041	MP loss:0.229766	Proto loss1:7.26919	Proto loss2:8.69095 
+
+       Acc: 95.208%          Sen: 73.502%          Spe: 99.584%         Prec: 88.490%         Dice: 75.030%          Jac: 67.470%           F2: 73.517%
+
+epoch:56/500	CE loss:0.0131437	Entropy loss:-0.497094	MP loss:0.225651	Proto loss1:7.2669	Proto loss2:8.6924 
+
+       Acc: 95.077%          Sen: 72.492%          Spe: 99.442%         Prec: 87.128%         Dice: 73.738%          Jac: 66.041%           F2: 72.480%
+
+epoch:57/500	CE loss:0.0128884	Entropy loss:-0.497102	MP loss:0.22449	Proto loss1:7.26919	Proto loss2:8.69473 
+
+       Acc: 94.915%          Sen: 72.023%          Spe: 99.339%         Prec: 86.194%         Dice: 73.238%          Jac: 65.243%           F2: 71.989%
+
+epoch:58/500	CE loss:0.013042	Entropy loss:-0.497328	MP loss:0.224408	Proto loss1:7.27291	Proto loss2:8.69679 
+
+       Acc: 94.922%          Sen: 70.498%          Spe: 99.565%         Prec: 89.031%         Dice: 72.780%          Jac: 64.942%           F2: 70.999%
+
+epoch:59/500	CE loss:0.0129608	Entropy loss:-0.497387	MP loss:0.222348	Proto loss1:7.27437	Proto loss2:8.69902 
+
+       Acc: 95.128%          Sen: 74.118%          Spe: 99.281%         Prec: 84.768%         Dice: 74.099%          Jac: 66.425%           F2: 73.590%
+
+epoch:60/500	CE loss:0.0131573	Entropy loss:-0.497463	MP loss:0.221071	Proto loss1:7.27762	Proto loss2:8.69983 
+
+       Acc: 94.322%          Sen: 72.895%          Spe: 98.589%         Prec: 79.475%         Dice: 70.904%          Jac: 62.036%           F2: 71.304%
+
+epoch:61/500	CE loss:0.0130114	Entropy loss:-0.497514	MP loss:0.21916	Proto loss1:7.27842	Proto loss2:8.70546 
+
+       Acc: 94.760%          Sen: 71.920%          Spe: 99.252%         Prec: 85.211%         Dice: 72.740%          Jac: 64.692%           F2: 71.641%
+
+epoch:62/500	CE loss:0.0129517	Entropy loss:-0.497529	MP loss:0.222347	Proto loss1:7.27821	Proto loss2:8.70974 
+
+       Acc: 95.012%          Sen: 72.166%          Spe: 99.486%         Prec: 88.309%         Dice: 74.177%          Jac: 66.564%           F2: 72.365%
+
+epoch:63/500	CE loss:0.0124887	Entropy loss:-0.497707	MP loss:0.218316	Proto loss1:7.28004	Proto loss2:8.70458 
+
+       Acc: 95.136%          Sen: 73.504%          Spe: 99.452%         Prec: 87.937%         Dice: 74.903%          Jac: 67.376%           F2: 73.431%
+
+epoch:64/500	CE loss:0.013088	Entropy loss:-0.497757	MP loss:0.221226	Proto loss1:7.28463	Proto loss2:8.70816 
+
+       Acc: 95.266%          Sen: 75.366%          Spe: 99.452%         Prec: 88.314%         Dice: 75.838%          Jac: 68.599%           F2: 74.870%
+
+epoch:65/500	CE loss:0.0127184	Entropy loss:-0.497861	MP loss:0.219082	Proto loss1:7.27986	Proto loss2:8.70686 
+
+       Acc: 95.529%          Sen: 75.645%          Spe: 99.642%         Prec: 88.986%         Dice: 77.243%          Jac: 70.439%           F2: 75.861%
+
+epoch:66/500	CE loss:0.0126199	Entropy loss:-0.497852	MP loss:0.218154	Proto loss1:7.2819	Proto loss2:8.71368 
+
+       Acc: 95.183%          Sen: 74.245%          Spe: 99.489%         Prec: 87.659%         Dice: 75.091%          Jac: 67.994%           F2: 74.027%
+
+epoch:67/500	CE loss:0.0126101	Entropy loss:-0.498012	MP loss:0.217295	Proto loss1:7.28624	Proto loss2:8.70963 
+
+       Acc: 95.369%          Sen: 74.709%          Spe: 99.623%         Prec: 87.704%         Dice: 76.554%          Jac: 69.586%           F2: 74.921%
+
+epoch:68/500	CE loss:0.0125586	Entropy loss:-0.498034	MP loss:0.220786	Proto loss1:7.28364	Proto loss2:8.70992 
+
+       Acc: 95.294%          Sen: 73.569%          Spe: 99.670%         Prec: 88.824%         Dice: 75.648%          Jac: 68.664%           F2: 73.880%
+
+epoch:69/500	CE loss:0.012555	Entropy loss:-0.498141	MP loss:0.215994	Proto loss1:7.28331	Proto loss2:8.70991 
+
+       Acc: 95.432%          Sen: 74.150%          Spe: 99.671%         Prec: 88.197%         Dice: 76.096%          Jac: 69.248%           F2: 74.519%
+
+epoch:70/500	CE loss:0.0126636	Entropy loss:-0.498283	MP loss:0.215208	Proto loss1:7.28387	Proto loss2:8.70937 
+
+       Acc: 95.332%          Sen: 74.474%          Spe: 99.619%         Prec: 87.318%         Dice: 75.887%          Jac: 68.753%           F2: 74.655%
+
+epoch:71/500	CE loss:0.0122709	Entropy loss:-0.498338	MP loss:0.215509	Proto loss1:7.28417	Proto loss2:8.71352 
+
+       Acc: 95.401%          Sen: 75.694%          Spe: 99.485%         Prec: 86.130%         Dice: 75.835%          Jac: 68.488%           F2: 75.332%
+
+epoch:72/500	CE loss:0.0126237	Entropy loss:-0.498494	MP loss:0.21777	Proto loss1:7.28683	Proto loss2:8.71266 
+
+       Acc: 95.408%          Sen: 74.339%          Spe: 99.645%         Prec: 88.802%         Dice: 76.403%          Jac: 69.106%           F2: 74.729%
+
+epoch:73/500	CE loss:0.0122797	Entropy loss:-0.498529	MP loss:0.209937	Proto loss1:7.2839	Proto loss2:8.71044 
+
+       Acc: 95.609%          Sen: 75.895%          Spe: 99.609%         Prec: 89.093%         Dice: 77.573%          Jac: 70.625%           F2: 76.157%
+
+epoch:74/500	CE loss:0.0124965	Entropy loss:-0.498737	MP loss:0.216193	Proto loss1:7.29381	Proto loss2:8.7144 
+
+       Acc: 95.642%          Sen: 77.194%          Spe: 99.582%         Prec: 88.069%         Dice: 78.103%          Jac: 70.969%           F2: 77.177%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch74_jac70.969.pth has been saved
+epoch:75/500	CE loss:0.0119614	Entropy loss:-0.498736	MP loss:0.208805	Proto loss1:7.29158	Proto loss2:8.71382 
+
+       Acc: 95.584%          Sen: 76.094%          Spe: 99.580%         Prec: 88.197%         Dice: 77.064%          Jac: 69.815%           F2: 76.091%
+
+epoch:76/500	CE loss:0.0124553	Entropy loss:-0.498855	MP loss:0.212438	Proto loss1:7.29495	Proto loss2:8.72335 
+
+       Acc: 95.500%          Sen: 74.815%          Spe: 99.673%         Prec: 91.544%         Dice: 76.971%          Jac: 69.607%           F2: 75.269%
+
+epoch:77/500	CE loss:0.0121266	Entropy loss:-0.498943	MP loss:0.207729	Proto loss1:7.29818	Proto loss2:8.72527 
+
+       Acc: 95.401%          Sen: 73.523%          Spe: 99.726%         Prec: 90.246%         Dice: 76.319%          Jac: 69.182%           F2: 74.259%
+
+epoch:78/500	CE loss:0.0123206	Entropy loss:-0.499072	MP loss:0.207288	Proto loss1:7.29589	Proto loss2:8.72452 
+
+       Acc: 95.587%          Sen: 76.489%          Spe: 99.618%         Prec: 89.658%         Dice: 77.923%          Jac: 70.787%           F2: 76.633%
+
+epoch:79/500	CE loss:0.011903	Entropy loss:-0.499087	MP loss:0.207096	Proto loss1:7.29697	Proto loss2:8.72771 
+
+       Acc: 95.719%          Sen: 78.533%          Spe: 99.545%         Prec: 89.374%         Dice: 78.917%          Jac: 71.910%           F2: 78.260%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch79_jac71.910.pth has been saved
+epoch:80/500	CE loss:0.0120071	Entropy loss:-0.499244	MP loss:0.206087	Proto loss1:7.30145	Proto loss2:8.72637 
+
+       Acc: 95.589%          Sen: 77.097%          Spe: 99.580%         Prec: 87.818%         Dice: 77.737%          Jac: 70.827%           F2: 76.939%
+
+epoch:81/500	CE loss:0.0120659	Entropy loss:-0.499282	MP loss:0.206079	Proto loss1:7.30524	Proto loss2:8.73863 
+
+       Acc: 95.556%          Sen: 77.522%          Spe: 99.526%         Prec: 88.084%         Dice: 77.454%          Jac: 70.362%           F2: 76.992%
+
+epoch:82/500	CE loss:0.0118367	Entropy loss:-0.499507	MP loss:0.203523	Proto loss1:7.30579	Proto loss2:8.73696 
+
+       Acc: 95.534%          Sen: 74.334%          Spe: 99.674%         Prec: 90.078%         Dice: 77.075%          Jac: 69.809%           F2: 75.047%
+
+epoch:83/500	CE loss:0.0122385	Entropy loss:-0.499629	MP loss:0.208652	Proto loss1:7.30973	Proto loss2:8.74231 
+
+       Acc: 95.604%          Sen: 76.724%          Spe: 99.600%         Prec: 90.672%         Dice: 78.115%          Jac: 70.989%           F2: 76.698%
+
+epoch:84/500	CE loss:0.011693	Entropy loss:-0.499695	MP loss:0.202802	Proto loss1:7.31191	Proto loss2:8.74377 
+
+       Acc: 95.558%          Sen: 77.629%          Spe: 99.495%         Prec: 89.986%         Dice: 77.588%          Jac: 70.149%           F2: 76.959%
+
+epoch:85/500	CE loss:0.0119243	Entropy loss:-0.499915	MP loss:0.202077	Proto loss1:7.31158	Proto loss2:8.75063 
+
+       Acc: 95.495%          Sen: 76.577%          Spe: 99.547%         Prec: 87.147%         Dice: 76.838%          Jac: 69.969%           F2: 76.057%
+
+epoch:86/500	CE loss:0.011813	Entropy loss:-0.50024	MP loss:0.209048	Proto loss1:7.32076	Proto loss2:8.75309 
+
+       Acc: 95.349%          Sen: 75.903%          Spe: 99.512%         Prec: 86.572%         Dice: 76.265%          Jac: 69.099%           F2: 75.499%
+
+epoch:87/500	CE loss:0.0116681	Entropy loss:-0.500608	MP loss:0.19886	Proto loss1:7.31667	Proto loss2:8.75655 
+
+       Acc: 95.446%          Sen: 77.103%          Spe: 99.479%         Prec: 87.716%         Dice: 77.256%          Jac: 69.967%           F2: 76.447%
+
+epoch:88/500	CE loss:0.0121172	Entropy loss:-0.500983	MP loss:0.203591	Proto loss1:7.31833	Proto loss2:8.75429 
+
+       Acc: 95.461%          Sen: 76.142%          Spe: 99.565%         Prec: 91.422%         Dice: 77.693%          Jac: 70.386%           F2: 76.142%
+
+epoch:89/500	CE loss:0.0116281	Entropy loss:-0.501319	MP loss:0.199817	Proto loss1:7.3228	Proto loss2:8.75859 
+
+       Acc: 95.637%          Sen: 79.119%          Spe: 99.462%         Prec: 89.499%         Dice: 78.625%          Jac: 71.411%           F2: 78.271%
+
+epoch:90/500	CE loss:0.0116816	Entropy loss:-0.501767	MP loss:0.199027	Proto loss1:7.32848	Proto loss2:8.76926 
+
+       Acc: 95.638%          Sen: 78.038%          Spe: 99.488%         Prec: 89.396%         Dice: 78.551%          Jac: 71.347%           F2: 77.571%
+
+epoch:91/500	CE loss:0.0116858	Entropy loss:-0.502018	MP loss:0.199619	Proto loss1:7.33372	Proto loss2:8.7737 
+
+       Acc: 95.495%          Sen: 78.029%          Spe: 99.405%         Prec: 88.120%         Dice: 77.604%          Jac: 70.211%           F2: 77.098%
+
+epoch:92/500	CE loss:0.0116721	Entropy loss:-0.502159	MP loss:0.202401	Proto loss1:7.33359	Proto loss2:8.7798 
+
+       Acc: 95.407%          Sen: 77.100%          Spe: 99.407%         Prec: 87.448%         Dice: 77.039%          Jac: 69.669%           F2: 76.412%
+
+epoch:93/500	CE loss:0.0115757	Entropy loss:-0.502278	MP loss:0.199653	Proto loss1:7.33341	Proto loss2:8.77653 
+
+       Acc: 95.458%          Sen: 77.603%          Spe: 99.441%         Prec: 88.471%         Dice: 77.680%          Jac: 70.329%           F2: 76.913%
+
+epoch:94/500	CE loss:0.0114045	Entropy loss:-0.502372	MP loss:0.201644	Proto loss1:7.33572	Proto loss2:8.78465 
+
+       Acc: 95.464%          Sen: 76.743%          Spe: 99.537%         Prec: 89.905%         Dice: 77.507%          Jac: 70.354%           F2: 76.362%
+
+epoch:95/500	CE loss:0.0113973	Entropy loss:-0.502411	MP loss:0.202183	Proto loss1:7.33956	Proto loss2:8.79325 
+
+       Acc: 95.521%          Sen: 78.905%          Spe: 99.385%         Prec: 87.504%         Dice: 77.873%          Jac: 70.607%           F2: 77.686%
+
+epoch:96/500	CE loss:0.0114784	Entropy loss:-0.502439	MP loss:0.197996	Proto loss1:7.33812	Proto loss2:8.79686 
+
+       Acc: 95.501%          Sen: 76.537%          Spe: 99.551%         Prec: 89.794%         Dice: 77.278%          Jac: 70.349%           F2: 76.245%
+
+epoch:97/500	CE loss:0.0120456	Entropy loss:-0.502455	MP loss:0.200431	Proto loss1:7.34234	Proto loss2:8.79278 
+
+       Acc: 95.555%          Sen: 78.580%          Spe: 99.436%         Prec: 89.614%         Dice: 77.934%          Jac: 70.828%           F2: 77.583%
+
+epoch:98/500	CE loss:0.011513	Entropy loss:-0.502531	MP loss:0.198551	Proto loss1:7.34319	Proto loss2:8.79211 
+
+       Acc: 95.277%          Sen: 74.438%          Spe: 99.576%         Prec: 88.687%         Dice: 75.813%          Jac: 68.715%           F2: 74.306%
+
+epoch:99/500	CE loss:0.0117181	Entropy loss:-0.502543	MP loss:0.198372	Proto loss1:7.34891	Proto loss2:8.80241 
+
+       Acc: 95.411%          Sen: 76.566%          Spe: 99.530%         Prec: 89.107%         Dice: 77.221%          Jac: 70.252%           F2: 76.135%
+
+epoch:100/500	CE loss:0.0114034	Entropy loss:-0.502584	MP loss:0.194133	Proto loss1:7.34812	Proto loss2:8.80907 
+
+       Acc: 95.370%          Sen: 76.515%          Spe: 99.503%         Prec: 88.939%         Dice: 77.197%          Jac: 70.065%           F2: 76.118%
+
+epoch:101/500	CE loss:0.0112686	Entropy loss:-0.502703	MP loss:0.191421	Proto loss1:7.3487	Proto loss2:8.80172 
+
+       Acc: 95.374%          Sen: 76.019%          Spe: 99.518%         Prec: 86.943%         Dice: 76.762%          Jac: 69.807%           F2: 75.655%
+
+epoch:102/500	CE loss:0.0111361	Entropy loss:-0.502712	MP loss:0.191176	Proto loss1:7.35104	Proto loss2:8.80123 
+
+       Acc: 95.432%          Sen: 77.286%          Spe: 99.460%         Prec: 86.345%         Dice: 77.293%          Jac: 70.293%           F2: 76.547%
+
+epoch:103/500	CE loss:0.011344	Entropy loss:-0.502668	MP loss:0.19417	Proto loss1:7.3517	Proto loss2:8.81124 
+
+       Acc: 95.427%          Sen: 76.682%          Spe: 99.510%         Prec: 86.969%         Dice: 76.886%          Jac: 69.881%           F2: 76.153%
+
+epoch:104/500	CE loss:0.0114235	Entropy loss:-0.502814	MP loss:0.195388	Proto loss1:7.35602	Proto loss2:8.8096 
+
+       Acc: 95.319%          Sen: 75.673%          Spe: 99.484%         Prec: 88.049%         Dice: 76.237%          Jac: 68.989%           F2: 75.325%
+
+epoch:105/500	CE loss:0.0114675	Entropy loss:-0.50283	MP loss:0.191784	Proto loss1:7.35507	Proto loss2:8.81679 
+
+       Acc: 95.515%          Sen: 77.197%          Spe: 99.504%         Prec: 88.847%         Dice: 77.992%          Jac: 70.898%           F2: 76.896%
+
+epoch:106/500	CE loss:0.0113349	Entropy loss:-0.502845	MP loss:0.19592	Proto loss1:7.35281	Proto loss2:8.80538 
+
+       Acc: 95.492%          Sen: 77.093%          Spe: 99.489%         Prec: 86.277%         Dice: 77.235%          Jac: 70.341%           F2: 76.523%
+
+epoch:107/500	CE loss:0.0115332	Entropy loss:-0.502868	MP loss:0.198517	Proto loss1:7.35721	Proto loss2:8.813 
+
+       Acc: 95.518%          Sen: 77.470%          Spe: 99.481%         Prec: 89.586%         Dice: 77.876%          Jac: 70.962%           F2: 76.856%
+
+epoch:108/500	CE loss:0.0112197	Entropy loss:-0.50286	MP loss:0.19617	Proto loss1:7.35943	Proto loss2:8.81728 
+
+       Acc: 95.419%          Sen: 76.376%          Spe: 99.539%         Prec: 89.747%         Dice: 77.169%          Jac: 70.018%           F2: 76.021%
+
+epoch:109/500	CE loss:0.0113723	Entropy loss:-0.502861	MP loss:0.196067	Proto loss1:7.35995	Proto loss2:8.82051 
+
+       Acc: 95.318%          Sen: 75.332%          Spe: 99.566%         Prec: 91.086%         Dice: 76.844%          Jac: 69.574%           F2: 75.203%
+
+epoch:110/500	CE loss:0.0115463	Entropy loss:-0.502878	MP loss:0.195887	Proto loss1:7.36263	Proto loss2:8.82895 
+
+       Acc: 95.433%          Sen: 77.059%          Spe: 99.472%         Prec: 91.310%         Dice: 77.562%          Jac: 70.495%           F2: 76.455%
+
+epoch:111/500	CE loss:0.0109198	Entropy loss:-0.502934	MP loss:0.190375	Proto loss1:7.36357	Proto loss2:8.81737 
+
+       Acc: 95.494%          Sen: 77.476%          Spe: 99.521%         Prec: 90.552%         Dice: 78.002%          Jac: 71.006%           F2: 76.895%
+
+epoch:112/500	CE loss:0.0111608	Entropy loss:-0.502879	MP loss:0.188956	Proto loss1:7.36464	Proto loss2:8.83127 
+
+       Acc: 95.323%          Sen: 75.048%          Spe: 99.575%         Prec: 90.140%         Dice: 75.971%          Jac: 68.827%           F2: 74.656%
+
+epoch:113/500	CE loss:0.0109956	Entropy loss:-0.502952	MP loss:0.193984	Proto loss1:7.36474	Proto loss2:8.82965 
+
+       Acc: 95.467%          Sen: 76.916%          Spe: 99.542%         Prec: 90.419%         Dice: 77.556%          Jac: 70.360%           F2: 76.441%
+
+epoch:114/500	CE loss:0.0112482	Entropy loss:-0.503024	MP loss:0.192427	Proto loss1:7.3639	Proto loss2:8.82027 
+
+       Acc: 95.441%          Sen: 75.832%          Spe: 99.622%         Prec: 91.933%         Dice: 77.286%          Jac: 70.211%           F2: 75.685%
+
+epoch:115/500	CE loss:0.010984	Entropy loss:-0.503063	MP loss:0.18697	Proto loss1:7.36465	Proto loss2:8.82138 
+
+       Acc: 95.387%          Sen: 75.924%          Spe: 99.609%         Prec: 91.416%         Dice: 77.369%          Jac: 70.066%           F2: 75.730%
+
+epoch:116/500	CE loss:0.0109114	Entropy loss:-0.503039	MP loss:0.186226	Proto loss1:7.36673	Proto loss2:8.82356 
+
+       Acc: 95.320%          Sen: 75.598%          Spe: 99.574%         Prec: 90.432%         Dice: 76.926%          Jac: 69.649%           F2: 75.379%
+
+epoch:117/500	CE loss:0.0109263	Entropy loss:-0.503166	MP loss:0.188511	Proto loss1:7.37104	Proto loss2:8.82251 
+
+       Acc: 95.452%          Sen: 77.114%          Spe: 99.525%         Prec: 90.631%         Dice: 78.015%          Jac: 70.853%           F2: 76.753%
+
+epoch:118/500	CE loss:0.0111079	Entropy loss:-0.503097	MP loss:0.187905	Proto loss1:7.36853	Proto loss2:8.82866 
+
+       Acc: 95.530%          Sen: 77.244%          Spe: 99.562%         Prec: 91.475%         Dice: 78.579%          Jac: 71.464%           F2: 77.141%
+
+epoch:119/500	CE loss:0.0110044	Entropy loss:-0.503082	MP loss:0.188761	Proto loss1:7.36943	Proto loss2:8.82906 
+
+       Acc: 95.655%          Sen: 80.110%          Spe: 99.414%         Prec: 89.467%         Dice: 79.146%          Jac: 72.034%           F2: 78.937%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch119_jac72.034.pth has been saved
+epoch:120/500	CE loss:0.0108434	Entropy loss:-0.503097	MP loss:0.191394	Proto loss1:7.37317	Proto loss2:8.83625 
+
+       Acc: 95.651%          Sen: 78.866%          Spe: 99.521%         Prec: 91.675%         Dice: 79.175%          Jac: 72.196%           F2: 78.260%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch120_jac72.196.pth has been saved
+epoch:121/500	CE loss:0.0109877	Entropy loss:-0.50316	MP loss:0.191945	Proto loss1:7.37054	Proto loss2:8.83492 
+
+       Acc: 95.697%          Sen: 78.293%          Spe: 99.569%         Prec: 92.350%         Dice: 79.638%          Jac: 72.339%           F2: 78.116%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch121_jac72.339.pth has been saved
+epoch:122/500	CE loss:0.0112147	Entropy loss:-0.503169	MP loss:0.191405	Proto loss1:7.37529	Proto loss2:8.84626 
+
+       Acc: 95.777%          Sen: 79.885%          Spe: 99.514%         Prec: 91.049%         Dice: 79.990%          Jac: 72.681%           F2: 79.211%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch122_jac72.681.pth has been saved
+epoch:123/500	CE loss:0.0109162	Entropy loss:-0.50317	MP loss:0.186554	Proto loss1:7.3731	Proto loss2:8.8439 
+
+       Acc: 95.845%          Sen: 80.343%          Spe: 99.481%         Prec: 90.197%         Dice: 80.211%          Jac: 72.945%           F2: 79.590%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch123_jac72.945.pth has been saved
+epoch:124/500	CE loss:0.0107622	Entropy loss:-0.503182	MP loss:0.182788	Proto loss1:7.37364	Proto loss2:8.84128 
+
+       Acc: 95.782%          Sen: 80.142%          Spe: 99.451%         Prec: 89.966%         Dice: 79.975%          Jac: 72.553%           F2: 79.403%
+
+epoch:125/500	CE loss:0.0108666	Entropy loss:-0.503158	MP loss:0.187047	Proto loss1:7.37709	Proto loss2:8.84665 
+
+       Acc: 95.814%          Sen: 79.743%          Spe: 99.512%         Prec: 91.169%         Dice: 80.199%          Jac: 72.801%           F2: 79.253%
+
+epoch:126/500	CE loss:0.0108586	Entropy loss:-0.50324	MP loss:0.186128	Proto loss1:7.37805	Proto loss2:8.84734 
+
+       Acc: 95.858%          Sen: 80.134%          Spe: 99.506%         Prec: 91.212%         Dice: 80.546%          Jac: 73.152%           F2: 79.630%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch126_jac73.152.pth has been saved
+epoch:127/500	CE loss:0.0111232	Entropy loss:-0.503225	MP loss:0.189924	Proto loss1:7.37684	Proto loss2:8.84085 
+
+       Acc: 95.842%          Sen: 79.903%          Spe: 99.489%         Prec: 90.956%         Dice: 80.177%          Jac: 72.731%           F2: 79.367%
+
+epoch:128/500	CE loss:0.0108599	Entropy loss:-0.503282	MP loss:0.184627	Proto loss1:7.38024	Proto loss2:8.84507 
+
+       Acc: 95.794%          Sen: 79.292%          Spe: 99.509%         Prec: 91.468%         Dice: 80.033%          Jac: 72.645%           F2: 78.897%
+
+epoch:129/500	CE loss:0.0106543	Entropy loss:-0.503232	MP loss:0.182276	Proto loss1:7.37575	Proto loss2:8.84567 
+
+       Acc: 95.781%          Sen: 80.297%          Spe: 99.422%         Prec: 90.177%         Dice: 79.812%          Jac: 72.389%           F2: 79.394%
+
+epoch:130/500	CE loss:0.0108402	Entropy loss:-0.503219	MP loss:0.188391	Proto loss1:7.37894	Proto loss2:8.8546 
+
+       Acc: 95.844%          Sen: 81.702%          Spe: 99.311%         Prec: 88.939%         Dice: 80.292%          Jac: 72.725%           F2: 80.340%
+
+epoch:131/500	CE loss:0.0107624	Entropy loss:-0.50331	MP loss:0.183971	Proto loss1:7.38729	Proto loss2:8.84186 
+
+       Acc: 95.842%          Sen: 80.712%          Spe: 99.407%         Prec: 90.457%         Dice: 80.456%          Jac: 73.120%           F2: 79.830%
+
+epoch:132/500	CE loss:0.0106262	Entropy loss:-0.50328	MP loss:0.187019	Proto loss1:7.38552	Proto loss2:8.84653 
+
+       Acc: 95.751%          Sen: 80.165%          Spe: 99.397%         Prec: 89.925%         Dice: 79.351%          Jac: 72.146%           F2: 79.037%
+
+epoch:133/500	CE loss:0.0108129	Entropy loss:-0.503286	MP loss:0.184382	Proto loss1:7.38416	Proto loss2:8.85106 
+
+       Acc: 95.755%          Sen: 80.591%          Spe: 99.362%         Prec: 89.534%         Dice: 79.638%          Jac: 72.275%           F2: 79.413%
+
+epoch:134/500	CE loss:0.0109425	Entropy loss:-0.503338	MP loss:0.188611	Proto loss1:7.38464	Proto loss2:8.85452 
+
+       Acc: 95.807%          Sen: 80.692%          Spe: 99.402%         Prec: 90.164%         Dice: 80.218%          Jac: 72.997%           F2: 79.796%
+
+epoch:135/500	CE loss:0.010706	Entropy loss:-0.503338	MP loss:0.183665	Proto loss1:7.38377	Proto loss2:8.85049 
+
+       Acc: 95.819%          Sen: 80.342%          Spe: 99.451%         Prec: 90.344%         Dice: 79.850%          Jac: 72.606%           F2: 79.453%
+
+epoch:136/500	CE loss:0.0107455	Entropy loss:-0.503352	MP loss:0.185441	Proto loss1:7.38752	Proto loss2:8.85721 
+
+       Acc: 95.918%          Sen: 80.886%          Spe: 99.439%         Prec: 90.569%         Dice: 80.562%          Jac: 73.294%           F2: 80.062%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch136_jac73.294.pth has been saved
+epoch:137/500	CE loss:0.0110353	Entropy loss:-0.503344	MP loss:0.184829	Proto loss1:7.38605	Proto loss2:8.85097 
+
+       Acc: 95.776%          Sen: 78.255%          Spe: 99.561%         Prec: 91.604%         Dice: 79.617%          Jac: 72.387%           F2: 78.204%
+
+epoch:138/500	CE loss:0.0107336	Entropy loss:-0.503366	MP loss:0.181713	Proto loss1:7.3884	Proto loss2:8.85328 
+
+       Acc: 95.661%          Sen: 77.604%          Spe: 99.547%         Prec: 90.631%         Dice: 78.663%          Jac: 71.377%           F2: 77.460%
+
+epoch:139/500	CE loss:0.0106766	Entropy loss:-0.50337	MP loss:0.185115	Proto loss1:7.38467	Proto loss2:8.85183 
+
+       Acc: 95.848%          Sen: 80.321%          Spe: 99.426%         Prec: 89.863%         Dice: 79.923%          Jac: 72.678%           F2: 79.517%
+
+epoch:140/500	CE loss:0.0105318	Entropy loss:-0.503412	MP loss:0.183733	Proto loss1:7.38588	Proto loss2:8.86382 
+
+       Acc: 95.749%          Sen: 79.229%          Spe: 99.490%         Prec: 91.078%         Dice: 79.810%          Jac: 72.416%           F2: 78.836%
+
+epoch:141/500	CE loss:0.0104379	Entropy loss:-0.503409	MP loss:0.184133	Proto loss1:7.38908	Proto loss2:8.85279 
+
+       Acc: 95.874%          Sen: 80.941%          Spe: 99.422%         Prec: 90.183%         Dice: 80.404%          Jac: 73.088%           F2: 80.022%
+
+epoch:142/500	CE loss:0.0104195	Entropy loss:-0.503456	MP loss:0.1783	Proto loss1:7.39266	Proto loss2:8.85809 
+
+       Acc: 95.957%          Sen: 82.069%          Spe: 99.379%         Prec: 89.729%         Dice: 80.952%          Jac: 73.709%           F2: 80.889%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch142_jac73.709.pth has been saved
+epoch:143/500	CE loss:0.0107008	Entropy loss:-0.503424	MP loss:0.181692	Proto loss1:7.38834	Proto loss2:8.85454 
+
+       Acc: 95.885%          Sen: 80.591%          Spe: 99.519%         Prec: 91.090%         Dice: 80.532%          Jac: 73.303%           F2: 79.921%
+
+epoch:144/500	CE loss:0.0105229	Entropy loss:-0.503457	MP loss:0.181178	Proto loss1:7.39399	Proto loss2:8.85086 
+
+       Acc: 95.913%          Sen: 80.903%          Spe: 99.455%         Prec: 90.837%         Dice: 80.753%          Jac: 73.513%           F2: 80.104%
+
+epoch:145/500	CE loss:0.0104564	Entropy loss:-0.503446	MP loss:0.179444	Proto loss1:7.39405	Proto loss2:8.85739 
+
+       Acc: 95.796%          Sen: 81.462%          Spe: 99.339%         Prec: 89.371%         Dice: 80.138%          Jac: 72.761%           F2: 80.143%
+
+epoch:146/500	CE loss:0.0105285	Entropy loss:-0.503479	MP loss:0.177903	Proto loss1:7.39096	Proto loss2:8.85623 
+
+       Acc: 95.814%          Sen: 81.229%          Spe: 99.310%         Prec: 88.688%         Dice: 80.271%          Jac: 72.978%           F2: 80.070%
+
+epoch:147/500	CE loss:0.0103235	Entropy loss:-0.503455	MP loss:0.178695	Proto loss1:7.39343	Proto loss2:8.85898 
+
+       Acc: 95.849%          Sen: 81.254%          Spe: 99.359%         Prec: 89.435%         Dice: 80.572%          Jac: 73.334%           F2: 80.227%
+
+epoch:148/500	CE loss:0.0102054	Entropy loss:-0.503522	MP loss:0.178811	Proto loss1:7.39443	Proto loss2:8.85311 
+
+       Acc: 95.751%          Sen: 79.853%          Spe: 99.454%         Prec: 90.043%         Dice: 79.853%          Jac: 72.420%           F2: 79.174%
+
+epoch:149/500	CE loss:0.0103007	Entropy loss:-0.5035	MP loss:0.176413	Proto loss1:7.39511	Proto loss2:8.85894 
+
+       Acc: 95.811%          Sen: 80.742%          Spe: 99.359%         Prec: 89.836%         Dice: 80.204%          Jac: 72.942%           F2: 79.786%
+
+epoch:150/500	CE loss:0.0104024	Entropy loss:-0.503534	MP loss:0.177098	Proto loss1:7.39519	Proto loss2:8.86867 
+
+       Acc: 95.812%          Sen: 81.444%          Spe: 99.238%         Prec: 88.714%         Dice: 80.202%          Jac: 72.579%           F2: 80.118%
+
+epoch:151/500	CE loss:0.0105573	Entropy loss:-0.503531	MP loss:0.181419	Proto loss1:7.40323	Proto loss2:8.88285 
+
+       Acc: 95.839%          Sen: 81.344%          Spe: 99.310%         Prec: 89.273%         Dice: 80.324%          Jac: 72.769%           F2: 80.129%
+
+epoch:152/500	CE loss:0.010397	Entropy loss:-0.503526	MP loss:0.181423	Proto loss1:7.39956	Proto loss2:8.86718 
+
+       Acc: 95.836%          Sen: 81.515%          Spe: 99.258%         Prec: 88.960%         Dice: 80.372%          Jac: 72.915%           F2: 80.245%
+
+epoch:153/500	CE loss:0.0102029	Entropy loss:-0.503537	MP loss:0.179418	Proto loss1:7.40592	Proto loss2:8.87019 
+
+       Acc: 95.804%          Sen: 81.154%          Spe: 99.287%         Prec: 89.131%         Dice: 80.113%          Jac: 72.623%           F2: 79.925%
+
+epoch:154/500	CE loss:0.0104613	Entropy loss:-0.503529	MP loss:0.182729	Proto loss1:7.40487	Proto loss2:8.87824 
+
+       Acc: 96.032%          Sen: 82.539%          Spe: 99.366%         Prec: 89.862%         Dice: 81.327%          Jac: 73.998%           F2: 81.233%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch154_jac73.998.pth has been saved
+epoch:155/500	CE loss:0.0102243	Entropy loss:-0.503576	MP loss:0.177678	Proto loss1:7.40989	Proto loss2:8.86747 
+
+       Acc: 95.996%          Sen: 81.771%          Spe: 99.410%         Prec: 90.267%         Dice: 81.083%          Jac: 73.778%           F2: 80.748%
+
+epoch:156/500	CE loss:0.0102858	Entropy loss:-0.503572	MP loss:0.178916	Proto loss1:7.40263	Proto loss2:8.87403 
+
+       Acc: 95.844%          Sen: 78.881%          Spe: 99.593%         Prec: 92.274%         Dice: 80.319%          Jac: 72.939%           F2: 78.861%
+
+epoch:157/500	CE loss:0.0102635	Entropy loss:-0.503567	MP loss:0.180338	Proto loss1:7.39935	Proto loss2:8.86323 
+
+       Acc: 95.891%          Sen: 79.600%          Spe: 99.551%         Prec: 91.747%         Dice: 80.402%          Jac: 73.062%           F2: 79.314%
+
+epoch:158/500	CE loss:0.0102303	Entropy loss:-0.503585	MP loss:0.177718	Proto loss1:7.40207	Proto loss2:8.86611 
+
+       Acc: 95.807%          Sen: 79.233%          Spe: 99.515%         Prec: 91.723%         Dice: 80.341%          Jac: 72.837%           F2: 78.952%
+
+epoch:159/500	CE loss:0.0107673	Entropy loss:-0.503587	MP loss:0.179552	Proto loss1:7.40517	Proto loss2:8.87033 
+
+       Acc: 95.941%          Sen: 80.353%          Spe: 99.481%         Prec: 91.392%         Dice: 80.931%          Jac: 73.551%           F2: 79.879%
+
+epoch:160/500	CE loss:0.0100337	Entropy loss:-0.503631	MP loss:0.173674	Proto loss1:7.40401	Proto loss2:8.86709 
+
+       Acc: 95.866%          Sen: 79.784%          Spe: 99.544%         Prec: 91.933%         Dice: 80.640%          Jac: 73.366%           F2: 79.415%
+
+epoch:161/500	CE loss:0.0103184	Entropy loss:-0.503641	MP loss:0.175967	Proto loss1:7.40464	Proto loss2:8.87358 
+
+       Acc: 95.829%          Sen: 80.097%          Spe: 99.480%         Prec: 91.107%         Dice: 80.427%          Jac: 73.041%           F2: 79.452%
+
+epoch:162/500	CE loss:0.0103084	Entropy loss:-0.503631	MP loss:0.175572	Proto loss1:7.40566	Proto loss2:8.8777 
+
+       Acc: 95.857%          Sen: 79.791%          Spe: 99.515%         Prec: 91.725%         Dice: 80.674%          Jac: 73.304%           F2: 79.415%
+
+epoch:163/500	CE loss:0.0101826	Entropy loss:-0.503666	MP loss:0.169904	Proto loss1:7.40704	Proto loss2:8.87092 
+
+       Acc: 95.883%          Sen: 80.551%          Spe: 99.472%         Prec: 91.003%         Dice: 80.717%          Jac: 73.361%           F2: 79.843%
+
+epoch:164/500	CE loss:0.0100892	Entropy loss:-0.503633	MP loss:0.173823	Proto loss1:7.40781	Proto loss2:8.8749 
+
+       Acc: 95.891%          Sen: 81.212%          Spe: 99.415%         Prec: 90.003%         Dice: 80.596%          Jac: 73.093%           F2: 80.177%
+
+epoch:165/500	CE loss:0.0104668	Entropy loss:-0.503699	MP loss:0.176129	Proto loss1:7.40844	Proto loss2:8.87225 
+
+       Acc: 95.926%          Sen: 80.433%          Spe: 99.510%         Prec: 91.247%         Dice: 80.860%          Jac: 73.460%           F2: 79.928%
+
+epoch:166/500	CE loss:0.0101825	Entropy loss:-0.503695	MP loss:0.172638	Proto loss1:7.40536	Proto loss2:8.87383 
+
+       Acc: 95.924%          Sen: 81.269%          Spe: 99.404%         Prec: 90.262%         Dice: 80.786%          Jac: 73.426%           F2: 80.318%
+
+epoch:167/500	CE loss:0.00999318	Entropy loss:-0.503654	MP loss:0.173423	Proto loss1:7.4135	Proto loss2:8.87466 
+
+       Acc: 95.891%          Sen: 80.276%          Spe: 99.470%         Prec: 91.179%         Dice: 80.728%          Jac: 73.486%           F2: 79.719%
+
+epoch:168/500	CE loss:0.0100858	Entropy loss:-0.503689	MP loss:0.174167	Proto loss1:7.40791	Proto loss2:8.88465 
+
+       Acc: 95.803%          Sen: 79.260%          Spe: 99.526%         Prec: 91.394%         Dice: 80.071%          Jac: 72.710%           F2: 78.858%
+
+epoch:169/500	CE loss:0.00997722	Entropy loss:-0.503682	MP loss:0.174558	Proto loss1:7.41246	Proto loss2:8.86823 
+
+       Acc: 95.922%          Sen: 80.410%          Spe: 99.513%         Prec: 91.443%         Dice: 80.854%          Jac: 73.627%           F2: 79.851%
+
+epoch:170/500	CE loss:0.0101878	Entropy loss:-0.50369	MP loss:0.176579	Proto loss1:7.41211	Proto loss2:8.88791 
+
+       Acc: 95.838%          Sen: 79.581%          Spe: 99.531%         Prec: 91.393%         Dice: 80.280%          Jac: 72.853%           F2: 79.181%
+
+epoch:171/500	CE loss:0.0102579	Entropy loss:-0.503684	MP loss:0.172128	Proto loss1:7.41244	Proto loss2:8.88451 
+
+       Acc: 95.867%          Sen: 80.863%          Spe: 99.407%         Prec: 90.128%         Dice: 80.706%          Jac: 73.092%           F2: 80.007%
+
+epoch:172/500	CE loss:0.010132	Entropy loss:-0.503674	MP loss:0.174611	Proto loss1:7.41019	Proto loss2:8.8853 
+
+       Acc: 95.997%          Sen: 82.287%          Spe: 99.356%         Prec: 89.401%         Dice: 81.274%          Jac: 73.706%           F2: 81.137%
+
+epoch:173/500	CE loss:0.0101696	Entropy loss:-0.503733	MP loss:0.176494	Proto loss1:7.41732	Proto loss2:8.89037 
+
+       Acc: 96.012%          Sen: 82.472%          Spe: 99.369%         Prec: 89.408%         Dice: 81.232%          Jac: 73.720%           F2: 81.216%
+
+epoch:174/500	CE loss:0.00995704	Entropy loss:-0.503744	MP loss:0.17239	Proto loss1:7.41798	Proto loss2:8.8844 
+
+       Acc: 95.988%          Sen: 82.167%          Spe: 99.379%         Prec: 89.380%         Dice: 81.043%          Jac: 73.539%           F2: 80.936%
+
+epoch:175/500	CE loss:0.0101194	Entropy loss:-0.50373	MP loss:0.176762	Proto loss1:7.42087	Proto loss2:8.89582 
+
+       Acc: 95.914%          Sen: 81.459%          Spe: 99.411%         Prec: 90.259%         Dice: 80.698%          Jac: 73.603%           F2: 80.387%
+
+epoch:176/500	CE loss:0.0100553	Entropy loss:-0.503765	MP loss:0.17253	Proto loss1:7.41517	Proto loss2:8.89695 
+
+       Acc: 95.895%          Sen: 81.165%          Spe: 99.441%         Prec: 90.370%         Dice: 80.659%          Jac: 73.539%           F2: 80.193%
+
+epoch:177/500	CE loss:0.00988945	Entropy loss:-0.503708	MP loss:0.169451	Proto loss1:7.41436	Proto loss2:8.88462 
+
+       Acc: 95.881%          Sen: 80.960%          Spe: 99.428%         Prec: 90.217%         Dice: 80.621%          Jac: 73.299%           F2: 80.067%
+
+epoch:178/500	CE loss:0.00990051	Entropy loss:-0.503752	MP loss:0.169588	Proto loss1:7.41099	Proto loss2:8.88649 
+
+       Acc: 95.804%          Sen: 79.939%          Spe: 99.496%         Prec: 90.791%         Dice: 80.159%          Jac: 72.884%           F2: 79.309%
+
+epoch:179/500	CE loss:0.00995631	Entropy loss:-0.503752	MP loss:0.171214	Proto loss1:7.41441	Proto loss2:8.89034 
+
+       Acc: 95.756%          Sen: 79.742%          Spe: 99.493%         Prec: 90.091%         Dice: 79.770%          Jac: 72.415%           F2: 79.053%
+
+epoch:180/500	CE loss:0.0100392	Entropy loss:-0.503781	MP loss:0.169356	Proto loss1:7.41691	Proto loss2:8.88785 
+
+       Acc: 95.867%          Sen: 80.769%          Spe: 99.490%         Prec: 90.573%         Dice: 80.422%          Jac: 73.191%           F2: 79.954%
+
+epoch:181/500	CE loss:0.0100662	Entropy loss:-0.503768	MP loss:0.175439	Proto loss1:7.4147	Proto loss2:8.88736 
+
+       Acc: 95.872%          Sen: 80.372%          Spe: 99.510%         Prec: 90.839%         Dice: 80.486%          Jac: 73.188%           F2: 79.753%
+
+epoch:182/500	CE loss:0.00999978	Entropy loss:-0.503753	MP loss:0.173038	Proto loss1:7.41729	Proto loss2:8.88259 
+
+       Acc: 95.860%          Sen: 80.777%          Spe: 99.429%         Prec: 90.142%         Dice: 80.431%          Jac: 73.068%           F2: 79.868%
+
+epoch:183/500	CE loss:0.0098411	Entropy loss:-0.503757	MP loss:0.174224	Proto loss1:7.42206	Proto loss2:8.88855 
+
+       Acc: 95.828%          Sen: 80.757%          Spe: 99.409%         Prec: 89.890%         Dice: 80.145%          Jac: 72.825%           F2: 79.710%
+
+epoch:184/500	CE loss:0.00987098	Entropy loss:-0.503759	MP loss:0.171351	Proto loss1:7.42319	Proto loss2:8.89386 
+
+       Acc: 95.889%          Sen: 80.851%          Spe: 99.399%         Prec: 90.134%         Dice: 80.553%          Jac: 73.132%           F2: 79.941%
+
+epoch:185/500	CE loss:0.00964521	Entropy loss:-0.503791	MP loss:0.170969	Proto loss1:7.41952	Proto loss2:8.88461 
+
+       Acc: 95.914%          Sen: 81.476%          Spe: 99.366%         Prec: 89.597%         Dice: 80.572%          Jac: 73.126%           F2: 80.296%
+
+epoch:186/500	CE loss:0.0100484	Entropy loss:-0.503788	MP loss:0.170702	Proto loss1:7.42367	Proto loss2:8.88796 
+
+       Acc: 95.910%          Sen: 82.441%          Spe: 99.302%         Prec: 88.793%         Dice: 80.458%          Jac: 73.191%           F2: 80.742%
+
+epoch:187/500	CE loss:0.00986125	Entropy loss:-0.50379	MP loss:0.167529	Proto loss1:7.42023	Proto loss2:8.89688 
+
+       Acc: 95.947%          Sen: 81.740%          Spe: 99.377%         Prec: 89.827%         Dice: 80.925%          Jac: 73.555%           F2: 80.566%
+
+epoch:188/500	CE loss:0.00966502	Entropy loss:-0.503796	MP loss:0.169374	Proto loss1:7.42625	Proto loss2:8.89105 
+
+       Acc: 95.929%          Sen: 81.862%          Spe: 99.407%         Prec: 90.030%         Dice: 80.893%          Jac: 73.634%           F2: 80.623%
+
+epoch:189/500	CE loss:0.0102643	Entropy loss:-0.503786	MP loss:0.178263	Proto loss1:7.42785	Proto loss2:8.8883 
+
+       Acc: 95.459%          Sen: 76.380%          Spe: 99.641%         Prec: 92.194%         Dice: 78.092%          Jac: 70.595%           F2: 76.282%
+
+epoch:190/500	CE loss:0.0099383	Entropy loss:-0.503839	MP loss:0.171757	Proto loss1:7.42029	Proto loss2:8.89731 
+
+       Acc: 95.579%          Sen: 77.369%          Spe: 99.603%         Prec: 91.246%         Dice: 78.890%          Jac: 71.370%           F2: 77.224%
+
+epoch:191/500	CE loss:0.0100826	Entropy loss:-0.50382	MP loss:0.17318	Proto loss1:7.4217	Proto loss2:8.89119 
+
+       Acc: 95.895%          Sen: 80.421%          Spe: 99.520%         Prec: 91.398%         Dice: 80.793%          Jac: 73.560%           F2: 79.806%
+
+epoch:192/500	CE loss:0.00971824	Entropy loss:-0.503804	MP loss:0.169785	Proto loss1:7.42	Proto loss2:8.90108 
+
+       Acc: 95.801%          Sen: 79.247%          Spe: 99.542%         Prec: 91.766%         Dice: 80.402%          Jac: 72.944%           F2: 78.932%
+
+epoch:193/500	CE loss:0.00978772	Entropy loss:-0.503828	MP loss:0.166549	Proto loss1:7.42648	Proto loss2:8.89123 
+
+       Acc: 95.921%          Sen: 81.004%          Spe: 99.497%         Prec: 90.750%         Dice: 80.873%          Jac: 73.546%           F2: 80.195%
+
+epoch:194/500	CE loss:0.009742	Entropy loss:-0.50384	MP loss:0.171275	Proto loss1:7.41746	Proto loss2:8.89781 
+
+       Acc: 95.939%          Sen: 81.184%          Spe: 99.494%         Prec: 90.912%         Dice: 81.093%          Jac: 73.841%           F2: 80.351%
+
+epoch:195/500	CE loss:0.00965224	Entropy loss:-0.503843	MP loss:0.167327	Proto loss1:7.41498	Proto loss2:8.89565 
+
+       Acc: 95.939%          Sen: 81.012%          Spe: 99.492%         Prec: 90.983%         Dice: 81.142%          Jac: 73.827%           F2: 80.287%
+
+epoch:196/500	CE loss:0.00956907	Entropy loss:-0.503869	MP loss:0.167406	Proto loss1:7.42384	Proto loss2:8.89537 
+
+       Acc: 96.007%          Sen: 81.355%          Spe: 99.470%         Prec: 90.668%         Dice: 81.314%          Jac: 73.872%           F2: 80.541%
+
+epoch:197/500	CE loss:0.009617	Entropy loss:-0.503878	MP loss:0.171905	Proto loss1:7.42542	Proto loss2:8.89914 
+
+       Acc: 96.038%          Sen: 82.353%          Spe: 99.467%         Prec: 90.165%         Dice: 81.464%          Jac: 74.113%           F2: 81.202%
+
+/gpfs1/home/xiaoqiguo2/SemiSeg/model/CVC_Ours/model-best-deeplabv3plus_res101_atrous_CVC_epoch197_jac74.113.pth has been saved
+epoch:198/500	CE loss:0.00978622	Entropy loss:-0.503878	MP loss:0.168808	Proto loss1:7.42687	Proto loss2:8.89915 
+
+       Acc: 95.955%          Sen: 80.710%          Spe: 99.555%         Prec: 91.269%         Dice: 81.121%          Jac: 73.675%           F2: 80.202%
+
+epoch:199/500	CE loss:0.0097547	Entropy loss:-0.503878	MP loss:0.1698	Proto loss1:7.43293	Proto loss2:8.89966 
+
+       Acc: 95.982%          Sen: 81.777%          Spe: 99.472%         Prec: 90.299%         Dice: 81.282%          Jac: 73.904%           F2: 80.786%
+
