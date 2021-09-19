@@ -67,7 +67,7 @@ class Configuration():
 		self.TRAIN_EPOCHS = 500
 		self.TRAIN_LOSS_LAMBDA = 0
 		self.TRAIN_TBLOG = True
-		self.TRAIN_CKPT = os.path.join(self.ROOT_DIR,'/home/xiaoqiguo2/SemiSeg/model/deeplabv3plus_res101_atrous_VOC2012_epoch46_all.pth')
+		self.TRAIN_CKPT = os.path.join(self.ROOT_DIR,'/home/xiaoqiguo2/L2uDT/model/deeplabv3plus_res101_atrous_VOC2012_epoch46_all.pth')
 		# self.TRAIN_CKPT = os.path.join(self.ROOT_DIR,'/home/xiaoqiguo2/SemiSeg/model/EMA_l2u_train1/model-best-deeplabv3plus_res101_atrous_CVC_epoch97_jac76.479.pth')
 
 		self.LOG_DIR = os.path.join(self.ROOT_DIR,'log',self.EXP_NAME)
