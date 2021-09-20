@@ -1,4 +1,3 @@
-#### @Chao Huang(huangchao09@zju.edu.cn).
 import os
 import json
 
