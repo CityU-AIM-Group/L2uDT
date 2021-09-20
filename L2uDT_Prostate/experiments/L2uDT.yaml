@@ -1,0 +1,46 @@
+net: L2uDT
+net_params:
+  c: 2
+  n: 32
+  channels: 32
+  groups: 16
+  norm: sync_bn
+  num_classes: 3
+
+criterion: jac_loss
+
+weight_type: square
+eps: 1e-5
+dataset: ProstateDataset
+seed: 1024
+batch_size: 2
+num_epochs: 200
+valid_freq: 40   # validate every 10 epochs
+save_freq: 1000     # save every 50 epochs
+savepath: '/home/xiaoqiguo2/DMFNet_L2uDT/output/'
+start_iter: 0
+
+opt: Adam
+opt_params:
+  lr: 0.003
+  weight_decay: 1e-5
+  amsgrad: true
+
+workers: 2
+
+train_list: labeled.txt
+unlabel_list: unlabeled.txt
+valid_list: test.txt
+train_transforms: # for training
+  Compose([
+    RandCrop3D((256,256,32)),
+    RandomRotion(10), 
+    RandomIntensityChange((0.1,0.1)),
+    RandomFlip(0),
+    NumpyType((np.float32, np.int64)),
+    ])
+test_transforms: # for testing
+  Compose([
+    Pad((0, 0, 0, 0, 0)),
+    NumpyType((np.float32, np.int64)),
+    ])

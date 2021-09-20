@@ -1,0 +1,4 @@
+train_data_dir: /ProstateX/Train/images/
+valid_data_dir: /ProstateX/Test/images/
+test_data_dir: /ProstateX/Test/images/
+ckpt_dir: ./ckpts
