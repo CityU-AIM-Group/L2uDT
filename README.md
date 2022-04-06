@@ -5,7 +5,7 @@ by [Xiaoqing Guo](https://guo-xiaoqing.github.io/).
 ## Summary:
 
 ### Intoduction:
-This repository is for our IEEE TMI paper ["Semantic-oriented Labeled-to-unlabeled Distribution Translation for Image Segmentation"](https://ieeexplore.ieee.org/document/9541376)
+This repository is for our IEEE TMI paper ["Semantic-oriented Labeled-to-unlabeled Distribution Translation for Image Segmentation"](https://ieeexplore.ieee.org/document/9541376)([知乎](https://zhuanlan.zhihu.com/p/476326328))
 
 ### Framework:
 ![](https://github.com/CityU-AIM-Group/L2uDT/blob/main/network.png)
