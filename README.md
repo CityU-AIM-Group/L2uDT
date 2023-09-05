@@ -48,7 +48,7 @@ Note that we regard 'valid.txt' of EndoScene dataset as our 'labeled.txt', 'trai
 You should download the pretrained model from [Google Drive](https://drive.google.com/file/d/1yeZxwV6dYHQJmj2i5x9PnB6u-rqvlkCj/view?usp=sharing), and then put it in the './model' folder for initialization. 
 
 ### Well trained model:
-You could download the trained model from [Google Drive](https://drive.google.com/file/d/1P8OC7HDFqzlJXm9jcO85JoDKCYJN6jkI/view?usp=sharing), which achieves 81.464% in Dice score on the [EndoScene testing dataset](https://www.hindawi.com/journals/jhe/2017/4037190/). Put the model in directory './models'.
+You could download the trained model from [Google Drive](https://drive.google.com/file/d/194ZLEI0sad56TdPjz-LG7MVI16aKk-Rp/view?usp=sharing), which achieves 81.464% in Dice score on the [EndoScene testing dataset](https://www.hindawi.com/journals/jhe/2017/4037190/). Put the model in directory './models'.
 
 ## Log file
 Log file can be found [here](https://github.com/CityU-AIM-Group/L2uDT/blob/main/CVC_L2uDT_log.out)
